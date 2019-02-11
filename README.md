@@ -8,4 +8,4 @@ Avant toute utilisation il va falloir installer :
 
 Maintenant on va pouvoir ouvrir un invite de commande et tapez ensuite la ligne de commande :
 
-``py site.py -i markdown -o html``
+``py site.py -i ./.md -o ./html``
