@@ -19,6 +19,5 @@ def md_html():
             HTML = markdown2.markdown(fichier_md.read())
             html1 = open(args.output_file + '/' + fichier.replace('.md', ".html"), "w+", encoding="utf-8")
             html1.write(HTML)
-
-
+md_html()
    
